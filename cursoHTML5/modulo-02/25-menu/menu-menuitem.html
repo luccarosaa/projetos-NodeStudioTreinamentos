@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Menu / Menuitem</title>
+	<meta charset="UTF-8">
+	
+	<style>
+		.elemento {width:300px; height:300px; background-color:#ccc;}
+	</style>
+</head>
+
+<body>
+	<h3>Somente suportado no Firefox</h3>
+	
+	<div class="elemento" contextmenu="meu-menu">
+	</div>
+	
+	<menu type="context" id="meu-menu">
+		<menuitem> Atualizar </menuitem>
+		<menu label="Siga-nos">
+			<menuitem icon="img/facebook.png">Facebook</menuitem>
+			<menuitem icon="img/google.png">Google</menuitem>
+		</menu>
+	</menu>
+</body>
+</html>
