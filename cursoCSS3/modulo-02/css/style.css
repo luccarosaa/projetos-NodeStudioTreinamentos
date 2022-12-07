@@ -1,0 +1,16 @@
+/* Aula sobre Calc */
+* {margin: 0; padding: 0;}
+nav {width: 100vw; height:80px; background-color:blue;}
+.banner {width: 100vw; height: calc(100vh - 80px); background-image: url(../bg.png); background-size: cover;}
+
+/* Aula sobre Filters */
+#img1 {margin: 40px 0 0 60px; filter: blur(4px); }
+#img2 {margin: 40px 0 0 60px; filter: brightness(50%);}
+#img3 {margin: 40px 0 0 60px; filter: contrast(70%);}
+#img4 {margin: 40px 0 0 60px; filter: grayscale(50%);}
+#img5 {margin: 40px 0 0 60px; filter: invert(80%);}
+#img6 {margin: 40px 0 0 60px; filter: opacity(40%);}
+#img7 {margin: 40px 0 0 60px; filter: saturate(40%);}
+#img8 {margin: 40px 0 0 60px; filter: sepia(50%);}
+#img9 {margin: 40px 0 0 60px; filter: hue-rotate(30deg);}
+#img10{margin: 40px 0 0 60px; filter: drop-shadow(10px 20px 50px #000);}

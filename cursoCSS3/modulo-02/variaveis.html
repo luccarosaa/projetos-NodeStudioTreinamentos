@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>var()</title>
+<meta charset="UTF-8">
+
+<style>
+:root {
+	--bg-color: #fe019a;
+	--bg-color-2: purple;
+	--bg-color-3: blue;
+	--cor-do-texto: white;
+	--espacamento: 20px;
+	--espacamento-1: 10px;
+}
+
+#div1 {background-color: var(--bg-color); color: var(--cor-do-texto); padding: var(--espacamento); text-align:center;}
+
+#div2 {background-color: var(--bg-color-2); color: var(--cor-do-texto); padding: var(--espacamento-1); text-align:center;}
+
+#div3 {background-color: var(--bg-color-3); color: var(--cor-do-texto); padding: var(--espacamento); text-align:center;}
+</style>
+</head>
+
+<body>
+
+<div id="div1">
+	<p>Variáveis no CSS sevem ser declaradas dentro de um seletor CSS que define seu escopo</p>
+</div>
+
+<div id="div2">
+	<p>Variáveis no CSS sevem ser declaradas dentro de um seletor CSS que define seu escopo</p>
+</div>
+
+<div id="div3">
+	<p>Variáveis no CSS sevem ser declaradas dentro de um seletor CSS que define seu escopo</p>
+</div>
+
+</body>
+</html>
